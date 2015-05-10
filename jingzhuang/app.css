@@ -1,0 +1,220 @@
+html,body{
+	color:#505050;
+	line-height:1.75em;
+	background: #ebebeb;
+	font-family "jaf-bernino-sans","Lucida Grande","Lucida Sans Unicode","Lucida Sans",Geneva,Verdana,sans-serif";
+	/*font-family: "Helvetica Neue", Helvetica, Arial, "Hiragino Sans GB", "Hiragino Sans GB W3", "WenQuanYi Micro Hei", "Microsoft YaHei UI", "Microsoft YaHei", sans-serif;*/
+}
+
+.main-header{
+	text-align: center;
+	padding: 42px 0;
+	background: #ffffff;
+}
+
+.main-header .branding{
+	font-size: 3.5em;
+	color: #303030;
+}
+
+a{
+	color: #e67e22;
+	outline: none;
+	text-decoration: none;
+}
+
+.main-header .branding img{
+	max-width: 100%
+
+}
+
+a:active,a:focus,a img{
+	outline: none;
+}
+
+.main-navigation{
+	text-align: center;/*文字居中*/
+	background: #ffffff;/*背景色白色*/
+	border-top: 1px solid #ebebeb;/*上边框颜色*/
+	border-bottom: 3px solid #e1e1e1;/*下边框颜色*/
+	margin-bottom: 35px;/*下边框距离*/
+}
+
+/*内外边距全部不需要*/
+.main-navigation .menu{
+	padding: 0;
+	margin: 0;
+}
+/*class定义的用.点来取；id定义的用#来取
+
+*/
+.main-navigation .menu li.nav-current{
+	border-bottom: 3px solid #e67e22;/*底边框距离橘黄色*/
+	margin-bottom:-2px;/*必须为负数，否则在上面*/
+}
+.wenzhanglist{
+	background: #ffffff;/*背景色白色*/
+	font-size: 38;
+}
+
+.main-navigation .menu li{
+	list-style: none;/*li标签样式设置为空，也就是没有那个点*/
+	display: inline-block;
+	position: relative;/*相对定位*/
+}
+
+.main-navigation .menu li a{
+	color: #505050;
+	line-height: 4em;/*行高*/
+	display: block;/*块元素*/
+	padding: 0 21px;/*上下为0；左右为21px*/
+}
+
+
+.post{
+	padding: 35px;
+	background: #ffffff;
+	margin-bottom: 35px;
+	position: relative;
+	overflow: hidden;/*溢出部分隐藏*/
+}
+
+.post .post-header{
+	text-align: center;
+}
+
+.post .post-header .post-title{
+	margin: 0;
+	font-size: 2.5em;
+	line-height: 1em;
+}
+
+.post .post-header .post-title a{
+	color: #303030;/*黑色*/
+}
+
+.post .post-header .post-meta{
+	color: #959595;
+	margin 14px 0 0px: 
+}
+
+.post-content{
+	font:400 18px/1.62 "Glyphicons Halflings";
+	color: #444443;
+}
+
+.post-content p{
+	margin-top: 0;
+	margin-bottom: 1.46em;
+}
+
+.btn-default{
+	border: 1px solid #e67e22;
+	background: #e67e22;
+	content: #ffffff;
+	transition:all 0.2s ease-in-out;
+	-webkit-transition:all 0.2s ease-in-out;
+}
+
+.btn{
+	padding: 7px,14px;
+	border-radius: 2px;
+
+}
+
+
+.post .post-footer{
+	margin-top: 30px;
+	border-top: 1px solid #ebebeb;
+	padding: 21px 0 0 ;
+}
+
+.post .post-footer .tag-list{
+	color: #959595;
+	line-height: 28px;
+}
+
+.sidebar .widget{
+	background: #ffffff;
+	padding: 21px 30px;
+}
+
+.widget{
+	margin-bottom: 35px;
+}
+
+.widget .title{
+	margin-top: 0;
+	padding-bottom: 7px;
+	border-bottom: 1px solid #ebebeb;
+	margin-bottom: 21px;
+	position: relative;
+}
+
+.widget .tag-cloud a{
+	border: 1px solid #ebebeb;
+	padding: 2px 7px;
+	color: #959595;
+	line-height: 1.5em;
+	display: inline-block;
+	margin: 0 7px 7px 0;
+}
+
+.main-footer{
+	background: #202020;
+	padding: 35px 0 0;
+	color: #959595;
+}
+
+.widget{
+	margin-bottom: 35px;
+
+}
+
+.main-footer .widget .title{
+	color: #ffffff;
+	padding-bottom: 7px;
+	border-bottom: 7px;
+	margin-bottom: 1px solid #ebebeb;
+	position: relative;
+}
+
+.main-footer .widget .recent-post .recent-single-post{
+	border-bottom: 1px dashed #303030;
+
+}
+
+.main-footer  .recent-post .recent-single-post{
+	border-bottom: 1px dashed #303030;
+	padding-bottom: 14px;
+	margin-bottom: 14px;
+}
+
+
+.main-footer .widget .recent-post .recent-single-post .post-title{
+	color: #959595;
+}
+
+.main-footer  .recent-post .recent-single-post .post-title{
+	color: #505050;
+}
+
+.main-footer .widget .recent-post .recent-single-post .date{
+	color: #505050;
+}
+
+.widget .title:after{
+	content: ""
+	width:90px;
+	height: 1px;
+	background: #e67e22;
+	position: absolute;;
+	left: 0;
+	bottom: -1px;
+}
+
+.main-footer .widget .tag-cloud a{
+	border:1px solid #303030;
+}
+
+
